@@ -1,0 +1,25 @@
+{
+  "name": "fm-plus",
+  "version": "1.0.0",
+  "description": "Common utility classes for the Fieldmanager plugin on WordPress.",
+  "license": "GPL-2.0+",
+  "repository": "https://github.com/s3rgiosan/fm-plus",
+  "author": [
+    {
+      "name": "Sérgio Santos",
+      "email": "me@s3rgiosan.com",
+      "homepage": "https://github.com/s3rgiosan"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-composer": "^0.4.5",
+    "grunt-wp-i18n": "^1.0.0",
+    "jit-grunt": "^0.10.0",
+    "load-grunt-config": "^0.19.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended"
+  }
+}

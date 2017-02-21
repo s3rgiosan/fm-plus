@@ -1,0 +1,40 @@
+---
+engines:
+  phpcodesniffer:
+    enabled: true
+    config:
+      standard: "WordPress-Extra,phpcs.ruleset.xml"
+  fixme:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+      - php
+  phpmd:
+    enabled: true
+    checks:
+      Controversial/CamelCaseVariableName:
+        enabled: false
+      Controversial/CamelCaseMethodName:
+        enabled: false
+      Controversial/CamelCaseParameterName:
+        enabled: false
+      Controversial/CamelCasePropertyName:
+        enabled: false
+  eslint:
+    enabled: true
+ratings:
+  paths:
+  - "**.js"
+  - "**.jsx"
+  - "**.php"
+exclude_paths:
+- "Gruntfile.js"
+- "**/*{.,-}min.js"
+- "languages/**"
+- "node_modules/**/*"
+- "spec/"
+- "tests/"
+- "vendor/**/*"

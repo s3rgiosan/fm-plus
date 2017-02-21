@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1bca84a363586163b065ef9ea19d949e",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "dangoodman/composer-for-wordpress",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dangoodman/composer-for-wordpress.git",
+                "reference": "af0a36201ffe48e7ffcf4d71e6d7ff6eea65d5f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dangoodman/composer-for-wordpress/zipball/af0a36201ffe48e7ffcf4d71e6d7ff6eea65d5f8",
+                "reference": "af0a36201ffe48e7ffcf4d71e6d7ff6eea65d5f8",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Dangoodman\\ComposerForWordpress\\ComposerForWordpress"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dangoodman\\ComposerForWordpress\\": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2016-06-30T20:48:40+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
