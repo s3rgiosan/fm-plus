@@ -2,14 +2,14 @@
   "name": "s3rgiosan/fm-plus",
   "description": "Common utility classes for the Fieldmanager plugin on WordPress.",
   "type": "wordpress-plugin",
-  "keywords": ["wordpress", "fieldmanager", "library", "toolkit"],
+  "keywords": ["wordpress", "fieldmanager", "library", "plugin"],
   "homepage": "https://github.com/s3rgiosan/fm-plus",
   "license": "GPL-2.0+",
   "authors": [
     {
       "name": "Sérgio Santos",
       "email": "me@s3rgiosan.com",
-      "homepage": "https://github.com/s3rgiosan"
+      "homepage": "http://s3rgiosan.com"
     }
   ],
   "support": {
@@ -25,6 +25,9 @@
     "psr-4": {
       "s3rgiosan\\WP\\Plugin\\Tests\\Fieldmanager\\": "test/"
     }
+  },
+  "require": {
+    "composer/installers": "~1.0"
   },
   "require-dev": {
     "dangoodman/composer-for-wordpress": "^1.0"

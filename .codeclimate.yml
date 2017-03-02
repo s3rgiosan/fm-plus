@@ -32,6 +32,7 @@ ratings:
   - "**.php"
 exclude_paths:
 - "Gruntfile.js"
+- "grunt/**/*"
 - "**/*{.,-}min.js"
 - "languages/**"
 - "node_modules/**/*"
